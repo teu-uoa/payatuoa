@@ -58,9 +58,13 @@ quarter,cpi,lci
   Q3 = September and Q4 = December.
 - `cpi` is the Consumers Price Index, all groups (Infoshare series
   `CPIQ.SE9A`).
-- `lci` is the Labour Cost Index, all sectors, salary and wage rates, base
-  June 2017 quarter = 1000 (series `LCIQ.SD53Z9`). It's in the `lci-*.csv`
-  file of each Labour Market Statistics release.
+- `lci` is the Labour Cost Index, all sectors combined, all salary and wage
+  rates, base June 2009 quarter = 1000 (series `LCIQ.SG53Z9`). Copy it from
+  Table 1 of the "Labour cost index (salary and wage rates)" spreadsheet in
+  each Labour Market Statistics release: the "All sectors combined" column
+  under "Index of all salary and wage rates". Stats NZ also publishes the
+  same index on a June 2017 base (`LCIQ.SD53Z9`). Don't mix the two; the
+  page only cares about ratios, but every row must be on the same base.
 - Only enter published figures. A blank cell at the end of a column means
   "not out yet". Blanks in the middle of a column are an error.
 - If Stats NZ revises an earlier quarter, just change that number.

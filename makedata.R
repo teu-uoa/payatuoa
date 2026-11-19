@@ -28,8 +28,9 @@
 #                  Published Stats NZ figures ONLY, one row per quarter, quarter
 #                  written like 2026Q2 (Q1 = March, Q2 = June, ...).
 #                    cpi  Consumers Price Index, all groups (CPIQ.SE9A)
-#                    lci  Labour Cost Index, all sectors, salary and wage rates
-#                         (LCIQ.SD53Z9), base June 2017 quarter = 1000
+#                    lci  Labour Cost Index, all sectors combined, all salary
+#                         and wage rates (LCIQ.SG53Z9), base June 2009 = 1000;
+#                         Table 1 of the quarterly LCI release spreadsheet
 #                  When Stats NZ releases a quarter, add a row (or fill a blank
 #                  cell) and rerun. Do not type projections here; they come from
 #                  assumed_rates below.
